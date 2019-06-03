@@ -26,7 +26,7 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
         <!-- 生成模型的包名和位置 -->
-        <javaModelGenerator targetPackage="cn.longquanhot.pojo"
+        <javaModelGenerator targetPackage="com.longquanhot.pojo"
                             targetProject="H:\LongquanHotDemo\generatorSqlMapCustom\src\main\java">
             <property name="trimStrings" value="true"></property>
             <property name="enableSubPackages" value="true"></property>

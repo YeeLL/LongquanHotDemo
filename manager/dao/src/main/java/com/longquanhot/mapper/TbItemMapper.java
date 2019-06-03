@@ -2,6 +2,8 @@ package com.longquanhot.mapper;
 
 import com.longquanhot.pojo.TbItem;
 
+import java.util.List;
+
 public interface TbItemMapper {
     int deleteByPrimaryKey(Long id);
 
@@ -14,4 +16,7 @@ public interface TbItemMapper {
     int updateByPrimaryKeySelective(TbItem record);
 
     int updateByPrimaryKey(TbItem record);
+
+    List<TbItem> selectByPage();
+
 }

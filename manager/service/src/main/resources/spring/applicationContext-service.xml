@@ -7,6 +7,6 @@
        http://mybatis.org/schema/mybatis-spring
         http://mybatis.org/schema/mybatis-spring.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.longquanhot.service"/>
+    <context:component-scan base-package="com.longquanhot.service.impl"/>
 
 </beans>
