@@ -10,6 +10,8 @@
     <modules>
         <module>../common</module>
         <module>../manager</module>
+        <module>../protlweb</module>
+        <module>protl</module>
     </modules>
 
     <packaging>pom</packaging>
